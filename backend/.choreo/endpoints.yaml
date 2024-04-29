@@ -1,0 +1,5 @@
+endpoints:
+  - path: /weather
+    method: GET
+    backend:
+      url: http://backend:8000/weather
