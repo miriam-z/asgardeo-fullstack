@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+import { useAuthContext } from "@asgardeo/auth-react";
+import { ProtectedRoute } from "@asgardeo/auth-react";
+
+
 function App() {
   const [weatherData, setWeatherData] = useState(null);
 
